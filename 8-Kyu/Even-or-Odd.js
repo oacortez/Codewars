@@ -3,10 +3,21 @@ Create a function that takes an integer as an argument and returns
 "Even" for even numbers or "Odd" for odd numbers.
 */
 
+// SOLVED SOLUTION ⬇️
+
 function even_or_odd(number) {
-  
+  let math = number % 2;
+  if(math === 0 || -0) {
+    return "Even"
+  } else {
+    return "Odd"
+  }
 }
 
+
+// =====================================================================================
+
+// PSUEDO CODE --- 
 
 // PROBLEM: RETURN A STRING OF "EVEN" OR ODD BASED ON THE NUMBER INPUTED AS AN ARGUMENT
 // INPUT: A NUMBER 
