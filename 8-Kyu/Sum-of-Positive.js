@@ -55,5 +55,20 @@ GOOGLED:
   - how to remove negative numbers in array list js?
   - how to iterate through an array in javascript
 
-  
+FINAL REFLECTION: 
+  At first I wanted to use a "for loop" to iterate through my array and 
+  eliminate all negative numbers. I found that I could sort them out then 
+  iterate through them and be able to use an array method called ".pop()"
+  to eliminate the last index of an array. The problem I faced was that 
+  I was not able to use a "for loop" / could not figure out how to iterate 
+  and create a logic to eliminate the negative numbers. 
+
+  After a bunch of google and struggle I decided to use the .filter() method
+  which filters out index values based on the conditional giving 
+  after creating a logic to eliminate all negative numbers using .filter()
+  I had to sum all the remaining values which were positives. I used .reduce()
+  array method to have an initial value of zero and set my two parameters 
+  which were my (previousValue, currentValue) inside my reduce method 
+  I added my previousValue + currentValue which the final result would
+  add all the positive values of the array and return the total sum.
 */
