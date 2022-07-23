@@ -25,6 +25,13 @@ function makeNegative(num) {
 // psuedo:
 /* 
 
+Notes: I got to learn about Math.sign() & Math.abs()
+- Math.sign() - checks if a number is positive or negative - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign
+- Math.abs() - converts a negative number to positive and converts a positive to negative -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
+- https://stackoverflow.com/questions/4652104/convert-a-negative-number-to-a-positive-one-in-javascript
 
+I googled:
+- how to check if a number is positive or negative in js
+- Math.abs()
 
 */
