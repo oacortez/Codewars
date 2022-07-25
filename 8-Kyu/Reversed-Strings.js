@@ -6,6 +6,11 @@
 
 // Solution:
 
+function solution(str){
+  let words = str.split('')
+  let reverse = words.reverse().join('')
+  return reverse
+}
 
 // ===================================================================
 
