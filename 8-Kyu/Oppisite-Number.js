@@ -26,5 +26,21 @@ STEPS:
 - INSIDE THE CONDITION IF ITS MET RETURN THE OPPOSITE VALUE
 
 GOOGLE:
+Math.sign -- Built in function ⬇️
 
+// Return Value: The Math.sign() function returns five different values as described below:
+// It returns 1 if the argument passed is a positive number.
+// It returns -1 if the argument passed is a negative number.
+// It returns 0 if the argument passed is a positive zero.
+// It returns -0 if the argument passed is a negative zero.
+// If none of the above cases match,it returns Nan.
+
+
+Math.abs() -- Built in JS function ⬇️
+
+The Math.abs() function returns the absolute value of a number. 
+That is, it returns x if x is positive or zero, and the negation of x if x is negative.
+** TO CONVERT POSITIVE TO NEGATIVE USING Math.abs() 
+EX: -Math.abs(10) 
+    Returns: -10
 */
