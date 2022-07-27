@@ -6,6 +6,17 @@
 // 14: -14
 // -34: 34
 
+// SOLUTION ⬇️:
+
+function opposite(number) {
+  let valCheck =  Math.sign(number)
+  if(valCheck === 1) {
+    return -Math.abs(number)
+  } else {
+    return Math.abs(number)
+  }
+}
+
 // ===================================================================
 
 /* 
@@ -43,4 +54,8 @@ That is, it returns x if x is positive or zero, and the negation of x if x is ne
 ** TO CONVERT POSITIVE TO NEGATIVE USING Math.abs() 
 EX: -Math.abs(10) 
     Returns: -10
+
+NOTES: 
+ LOOKING AT THE RESULT I OVER COMPLICATED THIS AND COULD EASILY
+ DONE -NUMBER AS MY RETURN ... 😅
 */
