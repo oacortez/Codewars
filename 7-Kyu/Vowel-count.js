@@ -5,7 +5,35 @@
 // The input string will only consist of lower case letters and/or spaces.
 
 
+// My Attempt:
+// function getCount(str) {
+  
+//   let total = 0;
+//   let vowelList = 'aeiouAEIOU'.split('');
+//   let inputStr = str.split('')
+  
+//   for(let i = 0; i < inputStr.length; i--) {
+//       if(vowelList.indexOf(inputStr[i]) !== -1) {
+//         total++
+//       }
+//       return total
+//     }
+//   }
 
+// Final Solution/Result:
+function getCount(str) {
+  
+  let total = 0;
+  let vowelList = 'aeiouAEIOU'.split('');
+  let inputStr = str.split('')
+  
+  inputStr.forEach(element => {
+    if(vowelList.indexOf(element) !== -1) {
+      total++
+    }
+  })
+  return total
+  }
 
 
 // =====================================================================================
