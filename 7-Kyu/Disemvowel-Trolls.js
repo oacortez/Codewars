@@ -13,6 +13,35 @@ Note: for this kata y isn't considered a vowel.
 
 // Solution: 
 
+function disemvowel(str) {
+  let newStr = [];
+  
+  let strParam = str.split('')
+  let vowels = 'aeiouAEIOU'.split('')
+  
+  strParam.forEach(letter => {
+     if(vowels.indexOf(letter) === -1) {
+       newStr.push(letter)
+     }
+  })
+  return newStr.join("")
+}
+
+// Run down of the code:
+/* 
+
+- line 16 we have a function name disemvowel(str) that takes a parameter that has a value of a string
+- line 17 we have a variable name newStr and is assigned to an empty array
+- line 19 & 20 we have setup two variables and they are assigned to a method .split()
+  - .split() will convert the string value to an array
+- line 22 is iterating thru each element of the strParam variable since its an array
+- line 23 we have a conditional checking if our vowels array indexOf the search element
+    - of each letter equals -1 which means "not present"
+- that is going to check each vowels index of each letter and only 
+  - returns the letters without those vowels
+- line 24 pushes each element value to the empty array 
+- line 27 converts the array into a whole string using .join() method
+*/
 
 // ====================================================================
 
