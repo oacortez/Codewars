@@ -8,3 +8,21 @@ will come out, because 92 is 81 and 12 is 1.
 
 Note: The function accepts an integer and returns an integer
 */
+
+
+// ==============================================================
+
+
+/**
+
+PSUEDOCODE:
+
+PROBLEM: I AM GIVEN AN INTEGER(NUMBER) AND I NEED TO 
+SQUARE(NUMBER^2) EACH SINGLE ONE AND CONNECT THEM TOGETHER 
+
+INPUT: INTEGER(NUMBER)
+OUTPUT: INTEGER(NUMBER)
+
+
+
+ */
