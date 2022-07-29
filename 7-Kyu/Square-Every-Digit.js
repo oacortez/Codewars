@@ -9,6 +9,16 @@ will come out, because 92 is 81 and 12 is 1.
 Note: The function accepts an integer and returns an integer
 */
 
+// Solution:
+
+function squareDigits(num){
+  let arrayOfDigits = Array.from(String(num), Number);
+  
+  const numList = arrayOfDigits.map(element => {
+    return element * element 
+  })
+  return parseFloat(numList.join(''))
+}
 
 // ==============================================================
 
