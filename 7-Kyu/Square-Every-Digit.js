@@ -23,6 +23,24 @@ SQUARE(NUMBER^2) EACH SINGLE ONE AND CONNECT THEM TOGETHER
 INPUT: INTEGER(NUMBER)
 OUTPUT: INTEGER(NUMBER)
 
+BRAINSTORM:
 
+- WE NEED TO ITERATE THRU EACH NUMBER (LOOP)
+- WITH EACH NUMBER IT LOOPS MULTIPLY BY 2 ( NUM X 2 )
+- STORE EACH NUMBER TO AN EMPTY ARRAY 
+- JOIN BACK ALL THE NEW NUMBERS WITHOUT COMMAS
+
+notes: 
+- I googled how to convert a number to an array list and found 
+this: https://stackoverflow.com/questions/19182266/how-to-convert-an-integer-into-an-array-of-digits
+The first answer shows how to convert a number to an array list using:
+Array.from(), String(function), Number(function)
+
+- After converting the number to an array list 
+I iterate using .map() to get return a new array instance 
+
+- Inside the .map() I am multiplying the element * element (num^2)
+- After that I  use .join() to join all elements in the array
+and also parsedFloat() because .join() converted them into String value
 
  */
