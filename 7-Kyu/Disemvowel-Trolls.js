@@ -41,5 +41,10 @@ BRAINSTORM:
 - need to convert all strings to lowercase to have no issues
 
 
+Notes:
+I Had to google a lot on this one I feel like I understood the problem 
+but had more of an issue of how to implement methods and iterarions properly
+to check each single letter that the vowels that had to be looked at.
+
 
 */
