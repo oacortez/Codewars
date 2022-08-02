@@ -14,3 +14,18 @@ All numbers are valid Int32, no need to validate them.
 There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
  */
+
+
+// =====================================================================================================
+
+
+/**
+ PSUEDOCODE
+
+ PROBLEM: I AM GIVEN A STRING OF NUMBERS. I NEED TO RETURN A STRING OF THE HIGHEST NUMBER AND THE LOWEST 
+ NUMBER BACK WITH A SPACE IN BETWEEN(EXAMPLE ABOVE).
+
+ INPUT: A STRING OF NUMBERS 
+ OUTPUT: HIGHEST AND LOWEST NUMBER (STRING VALUE)
+
+ */
