@@ -15,6 +15,30 @@ There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
  */
 
+// Result: 
+function highAndLow(numbers){
+  let highAndLowVal = []
+  let orgnzArr = numbers.split(' ')
+  let strToNum = orgnzArr.map(str => {
+    return Number(str)
+  })
+  const sortNums = strToNum.sort((a, b) => {
+    return b-a
+  })
+    
+ let highestVal = highAndLowVal.push(sortNums[0])
+ let LowestVal = highAndLowVal.push(sortNums[sortNums.length - 1])
+ 
+
+ let strArr = highAndLowVal.toString().split(' ').join('')
+ 
+ // Creates a space in the middle of the string
+ let result = strArr.replace(/,/g, ' ')
+ 
+ return result;
+  
+}
+
 
 // =====================================================================================================
 
@@ -27,5 +51,15 @@ Output string must be two numbers separated by a single space, and highest numbe
 
  INPUT: A STRING OF NUMBERS 
  OUTPUT: HIGHEST AND LOWEST NUMBER (STRING VALUE)
+
+ BRAINSTORM:
+ - I SEE THAT SINCE ITS IN A STRING VALUE 
+ - NEED TO CONVERT STRING TO AN ARRAY OF NUMBERS
+ - ATTACH A .SORT() WHEN I HAVE ARRAY OF NUMBERS
+ - SORT THEM TO HIGHEST TO LOWEST 
+ - ONCE I HAVE THAT. I NEED TO ONLY HAVE AN ARRAY OF THE HIGEST AND LOWEST NUMBER FROM THAT ARRAY
+ - AFTER HAVING THOSE TO NUMBERS. I NEED TO CONVERT THEM STRING OR SOME METHOD 
+ THAT STRINGS THEM AND ALSO CREATES A SPACE BETWEEN 
+ - AFTER CONVERTING THEM TO A STRING WITH A SPACE RETURN FOR FINAL ANSWER
 
  */
