@@ -15,6 +15,30 @@ There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
  */
 
+// Result: 
+function highAndLow(numbers){
+  let highAndLowVal = []
+  let orgnzArr = numbers.split(' ')
+  let strToNum = orgnzArr.map(str => {
+    return Number(str)
+  })
+  const sortNums = strToNum.sort((a, b) => {
+    return b-a
+  })
+    
+ let highestVal = highAndLowVal.push(sortNums[0])
+ let LowestVal = highAndLowVal.push(sortNums[sortNums.length - 1])
+ 
+
+ let strArr = highAndLowVal.toString().split(' ').join('')
+ 
+ // Creates a space in the middle of the string
+ let result = strArr.replace(/,/g, ' ')
+ 
+ return result;
+  
+}
+
 
 // =====================================================================================================
 
