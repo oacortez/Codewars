@@ -26,4 +26,20 @@ INPUT: STRING
 OUTPUT: A NEW STRING WHERE THE FIRST LETTER IS A CAPITAL AND THE REST ARE LOWERCASE
 BASED ON THE INDEX # THE MAIN ARGUMENT ELEMENT IS AT. 
 
+BRAINSTORM:
+- .SPLIT() THE STRING TO HAVE AN ARRAY LIST TO KNOW WHERE EACH ELEMENT 
+IS PLACED
+- Iterate thru the array check what index each element is on 
+- based on what index it is return the first letter caps and the rest in lowercase
+- store each new element into a new empty array list
+- join them together with a dash "-"
+- return result
+
+questions: 
+- How can I make the first letter cap and the rest lowercase ?
+
+Reflection: 
+I was not able to fully solve it on my own. I got very confused when 
+it came to iterating. I did follow along a solution posted online and try
+to go line by line and console.log what each line was doing.
  */
