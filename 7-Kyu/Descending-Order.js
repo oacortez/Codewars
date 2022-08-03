@@ -12,7 +12,20 @@ Input: 123456789 Output: 987654321
 
  */
 
-
+//SOLUTION:
+function descendingOrder(n){
+  let numToStr = `${n}`.split('')
+  
+  let strToNum = numToStr.map(num => {
+    return Number(num)
+  })
+  
+  let highToLow = strToNum.sort((a, b) => {
+    return b-a;
+  })
+  
+  return Number(highToLow.join(''))
+}
 
 // ======================================================================================================
 
