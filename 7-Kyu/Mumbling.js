@@ -42,4 +42,12 @@ Reflection:
 I was not able to fully solve it on my own. I got very confused when 
 it came to iterating. I did follow along a solution posted online and try
 to go line by line and console.log what each line was doing.
+
+Notes:
+Based on my brainstorm I was very close in some ways. I did really struggle to implement
+the code part especially when it came to iterating them and figuring out 
+how I can increase each letter based on the index # the main input element
+was in. Definitely was challenging but I was able to understand a solution.
+
+The solution I found: https://losseff.xyz/katas/022-mumbling/javascript/
  */
