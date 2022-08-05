@@ -11,6 +11,22 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
  */
 
+// SOLUTION:
+function accum(s) {
+  let result = []
+  let lowStr = s.toLowerCase()
+  
+  for(let i = 0; i < lowStr.length; i++) {
+    let upperStr = lowStr[i].toUpperCase()
+    
+    for(let str = 0; str < i; str++) {
+      upperStr += lowStr[i]
+    }
+    result.push(upperStr)
+  }
+  return result.join('-')
+}
+
 
 //=======================================================================
 
