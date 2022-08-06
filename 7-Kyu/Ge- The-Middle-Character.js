@@ -33,7 +33,7 @@ function getMiddle(s) {
   let position = 0
   
   if(strLength % 2 === 0 ) {
-    
+
 // Even
     position = strLength / 2 - 1
     length = 2
@@ -71,6 +71,10 @@ Brainstorm:
 - based on that figure out how to get the middle character or the 2 characters in that string
 - Return it as a string
 
-*/
+Notes:
+I was not able to fully solve it by myself but I googled a lot and learned a lot! 
+- I found that I need to check if its ODD or EVEN using the module (%) if its even it has a remainder of 0 
+if its odd it has a remainder of 1
+- I used the substring in order to get the middle string based if its even or odd
 
- */
+*/
