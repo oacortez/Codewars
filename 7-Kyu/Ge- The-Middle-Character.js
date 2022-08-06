@@ -25,6 +25,31 @@ The middle character(s) of the word represented as a string.
  */
 
 
+// Solution:
+
+function getMiddle(s) {
+  const strLength = s.length
+  let length = 0
+  let position = 0
+  
+  if(strLength % 2 === 0 ) {
+    
+// Even
+    position = strLength / 2 - 1
+    length = 2
+    
+    return s.substring(position, position + length)
+  } else {
+    
+// ODD
+    position = strLength / 2 
+    length = 1 
+    
+    return s.substring(position, position + length)
+  }
+}
+
+
 /**
  
 /*
