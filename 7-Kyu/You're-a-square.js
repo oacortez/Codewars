@@ -43,5 +43,7 @@ let isSquare = function(n){
 
 /**
 
+More explanation on this:
+https://stackoverflow.com/questions/30919111/whats-the-best-way-in-javascript-to-test-if-a-given-parameter-is-a-square-numbe
 
  */
