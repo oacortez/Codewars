@@ -26,3 +26,22 @@ Examples:
 26  =>  false
 
  */
+
+
+// Solution:
+
+let isSquare = function(n){
+  //   return false; // fix me
+    if(Math.sqrt(n) % 1 === 0){
+      return true
+    } else {
+      return false
+    }
+  }
+
+
+
+/**
+
+
+ */
