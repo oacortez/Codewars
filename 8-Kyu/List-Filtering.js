@@ -10,3 +10,16 @@ filter_list([1,'a','b',0,15]) == [1,0,15]
 filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
  */
+
+
+
+/**
+ 
+Problem: I am given an array of values and need to only return an array of numbers
+
+input: array of random values
+output: array of number values
+
+
+
+ */
