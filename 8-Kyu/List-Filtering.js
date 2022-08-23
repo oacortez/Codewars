@@ -20,6 +20,13 @@ Problem: I am given an array of values and need to only return an array of numbe
 input: array of random values
 output: array of number values
 
+Braninstorm:
 
+- Use a filter method to only return the values that I need
+- use a conditional to check the value
+
+- Use a empty array to store your final values
+- use typeof to check which values are numbers
+- push the values that are numbers to that empty array
 
  */
