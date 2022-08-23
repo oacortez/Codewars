@@ -11,6 +11,17 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
  */
 
+// FINAL RESULT
+function filter_list(l) {
+  // Return a new array with the strings filtered out
+  const num = []
+  const filtLetters = l.forEach(char => {
+      if(typeof char === 'number') {
+        num.push(char)
+      }
+  })
+  return num
+}
 
 
 /**
