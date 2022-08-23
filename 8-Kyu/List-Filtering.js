@@ -29,4 +29,8 @@ Braninstorm:
 - use typeof to check which values are numbers
 - push the values that are numbers to that empty array
 
+Reflection:
+- I started working on using filter but for some reason it did not want to work for a edge case
+- I used forEach and push the values I needed to an empty array
+
  */
