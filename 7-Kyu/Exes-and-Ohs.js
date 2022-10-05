@@ -14,6 +14,29 @@ XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
 XO("zzoo") => false
  */
 
+// ⭐️ Solution:
+function XO(str) {
+  let lwrCase = str.toLowerCase().split('')
+  let oCount = 0;
+  let xCount = 0;
+  
+  const letterCount = lwrCase.forEach(letter => {
+    if(letter == 'o') {
+      oCount++
+    }
+    
+    if(letter == 'x') {
+      xCount++
+    }
+  })
+  
+  if(oCount === xCount) {
+    return true
+  } else {
+    return false
+  }
+}
+
 
 /** 
 Problem: I am given a string and I need to check if has the same amount of "x" & 'o'. 
