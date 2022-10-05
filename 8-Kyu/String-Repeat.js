@@ -10,6 +10,10 @@ Examples (input -> output)
 */
 
 
+// Solution:
+function repeatStr (n, s) {
+  return s.repeat(n)
+}
 
 
 /**
