@@ -23,4 +23,10 @@ length amount of that shortest word
 input: string of words
 output: Number - the shortest word lenght found
 
+brainstorm:
+- convert string to an array
+- sort the length of each element to lowest to highest 
+- pick at index [0] and return the length of the shortest word
+
 */
+
