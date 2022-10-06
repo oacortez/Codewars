@@ -6,8 +6,16 @@
 
  */
 
+//  Solution ⭐️
+ function findShort(s){
+  let arrWords = s.split(" ");
+  let sortWords = arrWords.sort((a, b) => {
+    return  a.length - b.length 
+  })
+  return sortWords[0].length
+}
 
- 
+
 /** 
 PROBLEM: I am given a string of words, I need to find the shortest word and return the
 length amount of that shortest word 
