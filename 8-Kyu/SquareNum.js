@@ -7,6 +7,18 @@ it should return 9 because 1^2 + 2^2 + 2^2 = 9.
  */
 
 
+// Solution ⭐️
+function squareSum(numbers){
+  let counter = 0;
+  
+  const square = numbers.forEach(num => {
+    counter += Math.pow(num, 2) 
+  })
+  
+  return counter
+}
+
+
 
 /** 
 
