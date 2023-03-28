@@ -23,3 +23,27 @@ Examples (input -> output:
 
  */
 ////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+// PSUEDO CODE --
+
+/**  
+ 
+Problem: I need to adjust the index(values) inside the array to highest to lowest value
+        and also adjust value from lowest to highest value based on the second argument(d)
+
+Input: String and a set of arrays 
+output: an array with lowest and highest values OR highest to lowest values based on the string argument("R" or "L")
+
+Plan: 
+- Create a conditional to check which string argument it is("R" or "L")
+- whether the string argument is "R" go inside the conditional and grab the second argument(a) 
+- sort the array to highest to lowest and return it since R is higest array and it wants a lowest to highest
+- else if its "L" sort the array to lowest to highest and return it
+= return the argument(a) to get result
+  
+*/
