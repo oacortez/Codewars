@@ -24,7 +24,20 @@ Examples (input -> output:
  */
 ////////////////////////////////////////////////////////////////
 
+// Solved Solution:
 
+const flip = (d, a) => {
+  if(d === "R") {
+    a.sort((a, b) => {
+      return a-b
+    })
+  } else {
+    a.sort((a,b) => {
+      return b - a
+    })
+  }
+  return a
+}
 
 
 
