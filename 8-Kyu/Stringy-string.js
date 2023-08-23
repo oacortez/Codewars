@@ -35,3 +35,22 @@ for (let i = 0; i < numbers.length; i++) {
 return arr.join('')
 }
   
+
+/**
+ 
+Psuedocode:
+
+- I am giving a Number 
+- need to return a String of the lenght of the number 
+- It should start with 10 
+- 6 -> '101010'
+
+- start with creating 2 variables and then assign both to an empty array
+- iterrate thru size number and push each number length to empty array 
+- iterate through the previous array you pushed all the numbers to 
+- check if each number is odd or even 
+- if value is even push '0' to the empty string 
+- else return '1' to string 
+- return the variable that contains the strings for result
+
+ */
