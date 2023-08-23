@@ -17,6 +17,21 @@ The size will always be positive and will only use whole numbers.
 
 function stringy(size) {
 
+const numbers = [];
+let arr = []
   
+for (let i = 0; i < size; i++) {
+  numbers.push(i + 1);
+}
+    
+for (let i = 0; i < numbers.length; i++) {
+  if(numbers[i] % 2 == 0) {
+      arr.push('0')
+  } else {
+      arr.push('1')
+  }
+}
+
+return arr.join('')
 }
   
