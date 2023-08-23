@@ -13,3 +13,10 @@ with size 12 should return : '101010101010'.
 The size will always be positive and will only use whole numbers.
  
 */
+
+
+function stringy(size) {
+
+  
+}
+  
