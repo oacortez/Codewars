@@ -8,3 +8,7 @@ Examples (Input -> Output):
 * "1234!_ "     -> "11223344!!__  "
 
  */
+
+function doubleChar(str) {
+  // Your code here
+}
