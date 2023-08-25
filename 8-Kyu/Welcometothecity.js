@@ -17,3 +17,13 @@ const arrNames = name.join(' ')
 
 return `Hello, ${arrNames}! Welcome to ${city}, ${state}!`
 }
+
+/**
+ 
+Psuedocode:
+
+- since name (param1) is in a array i need to covert it into a string
+  - I used .join method with space to break down both indexes that were in the array
+  - will return a string value
+
+ */
