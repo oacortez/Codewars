@@ -25,5 +25,7 @@ Psuedocode:
 - since name (param1) is in a array i need to covert it into a string
   - I used .join method with space to break down both indexes that were in the array
   - will return a string value
-
+- next I used Template Strings
+  - what this those is return string values together using back tics
+  - as seen on line 18 is a prime a example on how to use template strings
  */
