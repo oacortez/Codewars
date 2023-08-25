@@ -11,5 +11,9 @@ This example will return the string Hello, John Smith! Welcome to Phoenix, Arizo
 
  */
 
+  
 function sayHello( name, city, state ) {
+const arrNames = name.join(' ')
+
+return `Hello, ${arrNames}! Welcome to ${city}, ${state}!`
 }
