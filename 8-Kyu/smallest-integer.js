@@ -16,3 +16,17 @@ class SmallestIntegerFinder {
     return lowestNum[0]
   }
 }
+
+
+
+/**
+ 
+PSUEDOCODE:
+  
+  * I need to find the smallest number in the array including negative
+  
+  - First I need to sort out the array smallest to highest 
+  - I will use the method called .sort()
+    - What this method does is sort the indexes of the array and you can sort them highest to lowest or vice versa
+  
+ */
