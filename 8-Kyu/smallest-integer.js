@@ -12,5 +12,7 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
+    const lowestNum = args.sort((a, b) => a - b);
+    return lowestNum[0]
   }
 }
