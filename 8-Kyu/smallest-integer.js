@@ -28,5 +28,9 @@ PSUEDOCODE:
   - First I need to sort out the array smallest to highest 
   - I will use the method called .sort()
     - What this method does is sort the indexes of the array and you can sort them highest to lowest or vice versa
-  
+  - After sorting the array I console logged to check if I get the sorted out array
+  - Once I sorted the array I stored it in a variable 
+  - Return the variable with index of 0 
+    - example: variable[0]
+    - What this does is return the specific index of the array
  */
