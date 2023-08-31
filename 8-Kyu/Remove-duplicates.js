@@ -39,5 +39,8 @@ PSEUDOCODE:
   the spread syntax enumerates the properties of an object and 
   adds the key-value pairs to the object being created
   
-  
+  Links that I used to solve problem:
+  - spread syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+  = Set: https://www.javascripttutorial.net/array/javascript-remove-duplicates-from-array/
+
  */
