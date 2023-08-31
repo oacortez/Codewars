@@ -13,4 +13,6 @@ Input -> Output
 
 
 function distinct(a) {
+  const newArr = [...new Set(a)];
+  return newArr
 }
