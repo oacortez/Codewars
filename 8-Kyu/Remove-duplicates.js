@@ -16,3 +16,22 @@ function distinct(a) {
   const newArr = [...new Set(a)];
   return newArr
 }
+
+/**
+ 
+PSEUDOCODE: 
+
+* What do I need to do?
+  - I am given a array with numbers some of the numbers are duplicates 
+  - my objective is to return the same array but without duplicate numbers
+
+  - Using the Set() method: 
+  The Set() method creates a new set from an array. 
+  A set is a collection of unique values, so any duplicates in the array 
+  will be removed. To return a new array with no duplicates, you can use 
+  the Set() method to convert the array to a set and then convert the set 
+  back to an array
+  
+  - I also used the spread operator for the new array
+  - 
+ */
