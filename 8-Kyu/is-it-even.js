@@ -24,6 +24,10 @@ function testEven(n) {
 /**
 
   PSEUDOCODE:
-    - 
-
+  - What am I doing?
+    * Need to check if number given is even
+  - steps:
+  - create a if statement checking if number is even
+    - if number is even return true else false
+  - inside conditional check number using modulo(%)
  */
