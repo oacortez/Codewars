@@ -20,3 +20,10 @@ function testEven(n) {
     return false
   }
 }
+
+/**
+
+  PSEUDOCODE:
+    - 
+
+ */
