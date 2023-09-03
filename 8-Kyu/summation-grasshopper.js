@@ -17,3 +17,17 @@ var summation = function (num) {
   }
   return result  
 }
+
+
+/** 
+ 
+Psuedocode:
+
+1) We define a function named summation that takes a single argument num. 
+  This function will calculate the summation of numbers from 1 to num.
+
+2) Inside the summation function, we initialize a variable called result to 0. 
+  This variable will store the running total of the summation.
+
+3) 
+ */
