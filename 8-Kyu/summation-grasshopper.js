@@ -29,5 +29,9 @@ Psuedocode:
 2) Inside the summation function, we initialize a variable called result to 0. 
   This variable will store the running total of the summation.
 
-3) 
+3) We use a for loop to iterate from 1 to num. In each iteration of the loop, 
+  the current value of i (which starts at 1) is added to the result variable.
+
+4) After the loop finishes, we return the final value of result, which 
+  represents the summation of numbers from 1 to num.
  */
