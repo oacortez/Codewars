@@ -34,4 +34,8 @@ Psuedocode:
 
 4) After the loop finishes, we return the final value of result, which 
   represents the summation of numbers from 1 to num.
+
+  sidenote: This is a problem I need to look back due to not fully understanding
+  the loop and the syntax of for...let. 
+  * I got help thru chatgpt in order to solve this problem.
  */
