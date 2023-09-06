@@ -25,3 +25,10 @@ String.prototype.toJadenCase = function () {
   }
   return list.join(' ')
 };
+
+/** 
+ 
+  Psudocode: 
+  
+
+ */
