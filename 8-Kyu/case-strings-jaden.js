@@ -32,7 +32,16 @@ String.prototype.toJadenCase = function () {
   - I am giving a type STRING
   = I need to iterate thru each word and capitalize the first letter
 
-  
-
+  - in order to iterate a string I need to convert it to an array
+  - I found to use .split() to convert a string into a array
+  - after converting it into an array I need to iterate thru each index 
+  = I need to get the first spot on each word index 
+  - use .toUpperCase() to capitalize the first letter in each word 
+  - I need to replace the capitalization letter with each word so we can have it like the answer 
+  - I am going to .substring(1)
+  - after having each word capitalized in the array I need to join the array index in order to 
+  covert it into a string again 
+  - use .join() array method to join the index of the array into a string again
+  - after that return solution! 
 
  */
