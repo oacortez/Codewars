@@ -29,6 +29,10 @@ String.prototype.toJadenCase = function () {
 /** 
  
   Psudocode: 
+  - I am giving a type STRING
+  = I need to iterate thru each word and capitalize the first letter
+
   
+
 
  */
