@@ -38,5 +38,10 @@ if(numbers.length === 0) {
  
 Psuedocode: 
 
+General thought:
+I am given an array of numbers 
+I need to sum all numbers up 
+If input(ARRAY) has no value then return 0 
+
 
  */
