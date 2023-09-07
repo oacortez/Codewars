@@ -33,3 +33,10 @@ if(numbers.length === 0) {
 }
   return result
 };
+
+/**
+ 
+Psuedocode: 
+
+
+ */
