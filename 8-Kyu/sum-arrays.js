@@ -43,5 +43,11 @@ I am given an array of numbers
 I need to sum all numbers up 
 If input(ARRAY) has no value then return 0 
 
-
+steps:
+have a starter value of 0
+Check if the array has any value 
+If it does loop it if not then return 0 
+I need to loop thru each index in the array 
+add the started value with current index (+=) -- addition assignment 
+return final value
  */
