@@ -32,6 +32,13 @@ function countSheeps(arrayOfSheep) {
 
 /**
  
+Psuedocode:
 
+- I am given an Array 
+- need to iterate through each index of the array 
+- need to check if each index of the array is true 
+- need a counter starting from 0 -- This will be our answer
+- in the loop when checking if true then I need to increase the counter by 1(counter += 1)
+- Return answer
 
  */
