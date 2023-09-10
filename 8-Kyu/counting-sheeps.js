@@ -18,3 +18,5 @@ Hint: Don't forget to check for bad values like null/undefined
  */
 
 
+function countSheeps(arrayOfSheep) {
+}
