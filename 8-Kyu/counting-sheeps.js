@@ -41,4 +41,7 @@ Psuedocode:
 - in the loop when checking if true then I need to increase the counter by 1(counter += 1)
 - Return answer
 
+Ps: I learned about looping array index using .forEach 
+
+Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
  */
