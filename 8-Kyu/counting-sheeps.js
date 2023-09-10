@@ -19,4 +19,13 @@ Hint: Don't forget to check for bad values like null/undefined
 
 
 function countSheeps(arrayOfSheep) {
+   // TODO May the force be with you
+   let counter = 0; //starting point 
+  
+   arrayOfSheep.forEach(index => {
+     if(index === true) {
+       counter += 1
+     }
+   })
+   return counter
 }
