@@ -41,6 +41,6 @@ steps:
 - create math operation based on the operation conditional expression I am checking
 - once creating math operation return solution
 
-
-
+Ps: I feel like this code is not conventional and would like to come back to it once I have
+more experience
  */
