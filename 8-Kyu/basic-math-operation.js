@@ -12,3 +12,8 @@ Examples(Operator, value1, value2) --> output
 ('/', 49, 7) --> 7
 
  */
+
+function basicOp(operation, value1, value2)
+{
+  // Code
+}
