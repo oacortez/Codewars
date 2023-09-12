@@ -29,5 +29,11 @@ function basicOp(operation, value1, value2)
 /**
  
 Psuedocode: 
+- I am given a function with 3 parameters
+  - Operation = the operation(+, -, *, and /)
+  - Value1 = the first given number
+  - Value2 = the second given number
+
+
 
  */
