@@ -34,6 +34,13 @@ Psuedocode:
   - Value1 = the first given number
   - Value2 = the second given number
 
+steps:
+- I need to check the operation 
+  - I am going to use conditional if statement 
+- When checking the operation if it fits (+, -, *, /)
+- create math operation based on the operation conditional expression I am checking
+- once creating math operation return solution
+
 
 
  */
