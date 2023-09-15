@@ -28,3 +28,9 @@ let result = Math.floor(num)
     return 0;
   }
 }
+
+
+/**
+Pseudocode:
+
+*/
