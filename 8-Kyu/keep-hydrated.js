@@ -45,4 +45,9 @@ steps:
   - return result number 
   - else return 0
 
+side note: 
+- I learned how how to use Math.floor()
+- The Math.floor() static method always rounds down and returns 
+the largest integer less than or equal to a given number.
+
 */
