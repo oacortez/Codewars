@@ -37,6 +37,12 @@ Pseudocode:
 - given the time in hours(let time = number ) and you need to return 
 the number of litres(0.5) Nathan will drink, rounded to the smallest value.
 
-
+steps:
+- I need to multiply time * 0.5(liters) and store it in a variable
+- Need to round number if its less than 0.5 on any number round to 0 
+  - Used Math.floor()
+- check if number is more or equal to 1
+  - return result number 
+  - else return 0
 
 */
