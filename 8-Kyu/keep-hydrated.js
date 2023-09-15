@@ -32,5 +32,11 @@ let result = Math.floor(num)
 
 /**
 Pseudocode:
+- I am given a number 
+  - I need to return a value based on my math equation 
+- given the time in hours(let time = number ) and you need to return 
+the number of litres(0.5) Nathan will drink, rounded to the smallest value.
+
+
 
 */
