@@ -19,5 +19,12 @@ time = 11.8--> litres = 5
  */
 
 function litres(time) {
-
+let num = time * 0.5
+let result = Math.floor(num)
+    
+  if(result >= 1) {
+    return result
+  } else {
+    return 0;
   }
+}
