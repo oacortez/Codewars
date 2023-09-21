@@ -33,5 +33,9 @@ function setAlarm(employed, vacation){
  
 Psuedocode:
 
+- I am given a function with two given parameters
+- I am parameters are two boolean values(true && false)
+- based on the parameters I need to return a boolean value
+
 
  */
