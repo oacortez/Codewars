@@ -43,4 +43,8 @@ Steps:
 - if else employee is true and vacation is false return true
 - if else employee is false and vacation is true return false
 
+additional notes:
+- This code seems to be very non-conventional 
+- Had to google how to solve it and I did it by using if statements and (&& operator)
+
  */
