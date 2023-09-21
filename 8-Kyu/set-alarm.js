@@ -37,5 +37,10 @@ Psuedocode:
 - I am parameters are two boolean values(true && false)
 - based on the parameters I need to return a boolean value
 
+Steps:
+- create a if statement checking on the parameters values
+- check if both( && operator) params are truth values return true 
+- if else employee is true and vacation is false return true
+- if else employee is false and vacation is true return false
 
  */
