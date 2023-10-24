@@ -23,6 +23,7 @@ function century(year) {
 Problem: I am given a whole number(year) and need to convert it to another number
 that is based in century
 
-
+Input: Number
+output: Number
 
 */
