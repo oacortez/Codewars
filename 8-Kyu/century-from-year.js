@@ -14,3 +14,6 @@ Examples
 
  */
 
+function century(year) {
+  // Finish this :)
+}
