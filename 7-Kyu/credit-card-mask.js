@@ -19,5 +19,13 @@ Examples (input --> output):
  */
 
 function maskify(cc) {
-  
+
 }
+
+
+/**
+ PSUEDOCODE:
+
+ Problem: I am given a string of numbers where I need to change all the charaters to a symbol and leave the last 4 characters unchanged.
+
+ */
