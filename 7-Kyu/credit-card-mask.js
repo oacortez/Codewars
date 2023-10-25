@@ -31,4 +31,14 @@ function maskify(cc) {
  input: String
  output: String
 
+ Steps:
+
+- Need to covert string into indexes - Array 
+- if the array length is more than 4 then 
+- loop through the array - for loop
+- Loop through only the characters remaining in the array except the last 4 elements
+- once having the the elements remaining reasing the elements with the character of '#'
+- once they are resign use the array method .join() to convert it back into a string 
+- at the end have an else return regular value if the length is less then or equal to 4
+
  */
