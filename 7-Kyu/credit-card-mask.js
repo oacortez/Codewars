@@ -19,7 +19,17 @@ Examples (input --> output):
  */
 
 function maskify(cc) {
-
+  
+  const arrString = cc.split('');
+    
+  if(arrString.length > 4){ 
+    for(let i = 0; i < arrString.length - 4; i++) {
+        arrString[i] = '#'
+      }
+      return arrString.join('')
+    } else {
+      return cc
+  }
 }
 
 
