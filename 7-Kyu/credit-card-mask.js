@@ -17,3 +17,7 @@ Examples (input --> output):
 "Nananananananananananananananana Batman!" --> "####################################man!"
 
  */
+
+function maskify(cc) {
+  
+}
