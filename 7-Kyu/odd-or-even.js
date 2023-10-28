@@ -29,6 +29,13 @@ function oddOrEven(array) {
 Input: Array of numbers
 Output: string of "odd" or "even" based on number output
 
-
+steps:
+- have a varible with a starter number - 0 
+- loop over the array 
+- use Addition assignment (+=) with the starter 
+- create a coditonal checking if the result number is odd or even using the module (%) dividing by 2
+- start with the codition if = 0 then return 'even'
+  - else if (result % 2 === 0) - return even 
+  - else return 'odd'
 
  */
