@@ -22,6 +22,19 @@ Have fun!
  */
 
 function oddOrEven(array) {
+  let result = 0;
+  
+  array.forEach(num => {
+    result += num
+  })
+  
+  if(result === 0) {
+    return 'even'
+  } else if (result % 2 === 0) {
+    return 'even'
+  } else {
+    return 'odd'
+  }
 }
 
 /**
