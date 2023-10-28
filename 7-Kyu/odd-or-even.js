@@ -26,6 +26,9 @@ function oddOrEven(array) {
 
 /**
  
+Input: Array of numbers
+Output: string of "odd" or "even" based on number output
+
 
 
  */
