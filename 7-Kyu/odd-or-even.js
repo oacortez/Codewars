@@ -20,3 +20,6 @@ Output: "even"
 Have fun!
 
  */
+
+function oddOrEven(array) {
+}
