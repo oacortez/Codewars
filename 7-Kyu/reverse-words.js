@@ -15,6 +15,8 @@ function reverseWords(str) {
 
 /**
  
+Pseudocode:
+- I am given a string type and I need to reverse every word in the sentense and return it back
 
 
  */
