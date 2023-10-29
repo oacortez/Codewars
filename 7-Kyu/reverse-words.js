@@ -9,3 +9,6 @@ Examples
 "double  spaces"      ==> "elbuod  secaps"
 
 */
+
+function reverseWords(str) {
+}
