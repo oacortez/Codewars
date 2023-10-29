@@ -21,4 +21,17 @@ Pseudocode:
 Input: string
 Output: string
 
+
+Steps:
+- I need to convert String into an Array 
+- Iterate thru thu the words inside the array
+  - It has to be a new set of array -- .Map()
+- I have to split each word using .split()
+- Reverse each word using .revese()
+- Join each word together 
+
+- I will have a new set of words but with the new array of reversed words
+- Since we still have an array we have to use .joing('') 
+  - to return final result
+
  */
