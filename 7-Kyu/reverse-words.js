@@ -11,6 +11,11 @@ Examples
 */
 
 function reverseWords(str) {
+    
+  let arr = str.split(' ')
+  
+  const words = arr.map(letter => letter.split('').reverse().join(''))
+  return words.join(' ')
 }
 
 /**
