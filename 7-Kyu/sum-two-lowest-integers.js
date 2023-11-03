@@ -20,4 +20,11 @@ General:
 input: Array
 output: integer
 
+Steps:
+- sort least number to highest 
+- use bracket notation to access element from the array 
+- since I dont need to worry about negative or floats I can just add both num together 
+- have a variable adding(+) the first(0) index and the second(1) index
+- after that I should have result and return it
+
  */
