@@ -10,6 +10,11 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
  */
 
 function sumTwoSmallestNumbers(numbers) {  
+  let lowestsNums = numbers.sort((a, b) => a-b)
+  
+  const totalSum = lowestsNums[0] + lowestsNums[1]
+  
+  return totalSum
 }
 
 /**
