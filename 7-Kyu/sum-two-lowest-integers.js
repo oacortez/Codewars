@@ -14,6 +14,9 @@ function sumTwoSmallestNumbers(numbers) {
 
 /**
  
+General: 
+- I am given an array and I need to add the total sum of both lowest numbers in the array
+
 
 
  */
