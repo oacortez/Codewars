@@ -17,6 +17,12 @@ Note: keep the original order of the names in the output.
 
 
 function friend(friends){
+  let filterFriends = friends.filter((friends) => {
+    if(friends.length === 4) {
+      return friends
+    }
+  })
+  return filterFriends
 }
 
 
