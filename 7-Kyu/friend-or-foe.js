@@ -25,5 +25,6 @@ function friend(friends){
 input: array 
 output: array
 
+- I am given a array of list of names I need to filter out names that are longer length than 4 
 
  */
