@@ -27,4 +27,12 @@ output: array
 
 - I am given a array of list of names I need to filter out names that are longer length than 4 
 
+steps:
+- Need to filter array elements
+- use method of .filter() to iterate thru the array
+- do a conditional statement checking the lenght is exactly 4 
+- use .lenght method to check amount of character
+- if the element is exactly 4 return filter array elemnts
+- return variable to get correct answer
+
  */
