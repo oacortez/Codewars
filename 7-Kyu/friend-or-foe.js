@@ -22,7 +22,8 @@ function friend(friends){
 
 /**
  
-
+input: array 
+output: array
 
 
  */
