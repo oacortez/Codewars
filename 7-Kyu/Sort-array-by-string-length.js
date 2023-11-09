@@ -24,4 +24,7 @@ function sortByLength (array) {
 Input: Array
 Output Array
 
+General thought: I am given a list of elements inside an Array. I need to find the lowest to highest 
+word count from that list and I need to sort it based on the lowest count word to highest
+
  */
