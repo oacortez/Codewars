@@ -18,3 +18,10 @@ All of the strings in the array passed to your function will be different length
 
 function sortByLength (array) {
 }
+
+/**
+ 
+Input: Array
+Output Array
+
+ */
