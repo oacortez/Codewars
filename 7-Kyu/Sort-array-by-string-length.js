@@ -32,4 +32,11 @@ Thoughts:
 - Might need to loop thru each element 
 - use .length to see how many characters each string has
 
+Steps to solve:
+- Use sort to arrange from least to highest 
+- use params of a and b 
+- attach .length on both a and b with a minus(-) math symbol in between to sort them by numberical number(lowest to highest)
+- return array once is all sorted
+- should be able to get correct final answer! 
+
  */
