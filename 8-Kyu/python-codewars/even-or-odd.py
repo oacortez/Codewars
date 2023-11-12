@@ -5,7 +5,11 @@ PROMPT: Create a function that takes an integer as an argument and returns "Even
 """
 
 def even_or_odd(number):
-  pass
+  if number % 2 == 0:
+    return('Even')
+  else:
+    return('Odd')
+pass
 
 
 """
