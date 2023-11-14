@@ -15,4 +15,7 @@ def positive_sum(arr):
 Input: Array 
 Output: total Number
 
+General: I am given an array of numbers and I need to add the total sum of the numbers inside the array
+
+
 """
