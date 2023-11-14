@@ -9,7 +9,13 @@ Note: if there is nothing to sum, the sum is default to 0.
 """
 
 def positive_sum(arr):
-  return 0
+    # Your code here
+    total = 0
+    for num in arr:
+        if num > 0:
+            total = total + num
+            
+    return total
 
 """
 Input: Array 
