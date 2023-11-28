@@ -28,9 +28,9 @@ Steps:
 - create a variable to store answer
 - convert number(n) into string value inside that variable you recently created use .toString()
 - use special .split() method to convert string to a break down of array of elements
-- Iterate thru string elements and convert each element into Number data type use .map() to return 
+- iterate thru string elements and convert each element into Number data type use .map() to return 
   a new version of the array you worked with
-- Return solution using .reverse() to reverse each element 
+- return solution using .reverse() to reverse each element 
   ex; [1, 2 , 3] => [3, 2, 1] - using .reverse method
 
  */
