@@ -10,6 +10,11 @@ Example(Input => Output):
  */
 
 function digitize(n) {
+  let number = n.toString().split('')
+  
+  const solution = number.map((n) => parseInt(n))
+  
+  return solution.reverse()
 }
 
 
