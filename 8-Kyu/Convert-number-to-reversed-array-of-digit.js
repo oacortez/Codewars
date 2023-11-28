@@ -15,6 +15,7 @@ function digitize(n) {
 
 /**
  
-
+Input: number 
+output: Array
 
  */
