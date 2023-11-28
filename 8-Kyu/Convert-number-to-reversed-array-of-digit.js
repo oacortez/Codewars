@@ -8,3 +8,6 @@ Example(Input => Output):
 0 => [0]
 
  */
+
+function digitize(n) {
+}
