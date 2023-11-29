@@ -21,6 +21,11 @@ Complete the solution so that it reverses the string passed into it.
 Input: String
 Output: String 
 
-
+Steps:
+- create a new variable the stores the solution
+- use StringBuffer to manipulate the string 
+- .reverse() to reverse the string
+- .toString to convert it back to a string value again
+- return new variable where you manipulated the value from
 
  */
