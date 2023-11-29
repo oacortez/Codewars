@@ -11,7 +11,8 @@ Complete the solution so that it reverses the string passed into it.
 
   public static String solution(String str) {
     // Your code here...
-    return "";
+    String result = new StringBuffer(str).reverse().toString();
+     return result;
   }
 
 }
