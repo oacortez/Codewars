@@ -21,3 +21,13 @@ Examples
 function removeSmallest(numbers) {
   return [];
 }
+
+/*
+
+Input: Array
+Output: Array
+
+General: I am given an array of integers and I need to return a array of integers that removed
+the minimum value from the array - If there are two of the same value remove the one with the lower index element
+
+*/
