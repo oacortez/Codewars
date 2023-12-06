@@ -19,7 +19,10 @@ Examples
  */
 
 function removeSmallest(numbers) {
-  return [];
+  const newArr = numbers.slice(0)
+  let smallestVal = numbers.indexOf(Math.min(...numbers))
+  newArr.splice(smallestVal, 1);
+  return newArr
 }
 
 /*
