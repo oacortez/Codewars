@@ -30,4 +30,11 @@ Output: Array
 General: I am given an array of integers and I need to return a array of integers that removed
 the minimum value from the array - If there are two of the same value remove the one with the lower index element
 
+Steps:
+- Create a new array that is not mutated
+- To find the
+To find the index of the smallest value, you will need to call indexOf() on Math.Min() of the elements in numbers. Math.min() only accepts numbers as parameters. Hence, it's important to remember to use the spread operator to insert the elements of the array as parameters.
+- Remove smallest num from the array using .splice()
+- Return answer
+
 */
