@@ -20,3 +20,15 @@ For an example list of 1, 3, 5, 7
 
 def find_average(nums):
     #your code here
+
+
+
+    
+  """
+
+  Input: Array 
+  Output: Number
+
+  General thought: I am given an array type and I need to return the mean of the array elements 
+
+  """
