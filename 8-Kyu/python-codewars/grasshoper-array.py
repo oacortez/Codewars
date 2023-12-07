@@ -17,3 +17,6 @@ For an example list of 1, 3, 5, 7
 3. The mean (or average) of this list is 4
 
 """
+
+def find_average(nums):
+    #your code here
