@@ -31,4 +31,13 @@ def find_average(nums):
 
   General thought: I am given an array type and I need to return the mean of the array elements 
 
+  Steps:
+- have a starter varible with a num of 0 
+- loop thru the array elements 
+- add each individual element with starter varible 
+- get total amount of elements in array
+- do conditional checking if there are 0 num in the array element if not return total mean
+    - divide total sum of the array elements with total amount of elements in the array
+- return answer
+
   """
