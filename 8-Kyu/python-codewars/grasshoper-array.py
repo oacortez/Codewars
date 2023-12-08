@@ -20,11 +20,19 @@ For an example list of 1, 3, 5, 7
 
 def find_average(nums):
     #your code here
+    starter = 0
+    total_amount_in_array = len(nums)
+    for number in nums:
+       starter += number 
+    if len(nums) == 0:
+        return 0
+    else:
+        return starter / total_amount_in_array
 
 
 
     
-  """
+"""
 
   Input: Array 
   Output: Number
@@ -40,4 +48,4 @@ def find_average(nums):
     - divide total sum of the array elements with total amount of elements in the array
 - return answer
 
-  """
+"""
