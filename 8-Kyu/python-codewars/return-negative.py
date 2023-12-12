@@ -20,4 +20,10 @@ def make_negative( number ):
 Input: Number 
 Output: Negative number 
 
+Steps: 
+- Check if the number is already negative or 0 
+- if number is not negative or a 0 convert it to negative 
+    - use num * -1 (to make number negative)
+- return answer based on conditional
+
 """
