@@ -15,3 +15,9 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
 
 def make_negative( number ):
   pass
+
+"""
+Input: Number 
+Output: Negative number 
+
+"""
