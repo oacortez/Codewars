@@ -14,7 +14,12 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
 """
 
 def make_negative( number ):
-  pass
+  if number < 0:
+    return number
+  elif number == 0:
+    return number
+  else:
+    return number * -1
 
 """
 Input: Number 
