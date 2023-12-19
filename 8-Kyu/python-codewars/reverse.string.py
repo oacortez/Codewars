@@ -9,7 +9,8 @@ Complete the solution so that it reverses the string passed into it.
 """
 
 def solution(string):
-    pass
+    reverse_str = ''.join(reversed(string))
+    return reverse_str
 
 """
 
