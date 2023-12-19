@@ -16,4 +16,10 @@ def solution(string):
 Input: String
 Output: String
 
+Steps
+- Create a new variable that stores result 
+- Use .join() and '' to separate each character
+- .reversed() function to reverse in order the string
+- Return the variable the stores the result
+
 """
