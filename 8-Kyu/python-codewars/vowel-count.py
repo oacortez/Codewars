@@ -12,3 +12,11 @@ The input string will only consist of lower case letters and/or spaces.
 
 def get_count(sentence):
     pass
+
+
+
+"""
+Input: String
+Output: Number
+
+"""
