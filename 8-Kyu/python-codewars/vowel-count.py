@@ -19,4 +19,6 @@ def get_count(sentence):
 Input: String
 Output: Number
 
+Steps:
+- Have a variable that holds vowels of lower and upper case letters
 """
