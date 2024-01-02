@@ -21,4 +21,5 @@ Output: Number
 
 Steps:
 - Have a variable that holds vowels of lower and upper case letters
+- Have a starting counter of zero(0)
 """
