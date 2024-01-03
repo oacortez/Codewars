@@ -11,7 +11,14 @@ The input string will only consist of lower case letters and/or spaces.
 """
 
 def get_count(sentence):
-    pass
+    vowels = "aeiouAEIOU"
+    count = 0
+
+    for char in sentence:
+        if char in vowels and char != 'y':
+            count += 1
+
+    return count
 
 
 
