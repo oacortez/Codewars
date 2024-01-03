@@ -22,4 +22,9 @@ Output: Number
 Steps:
 - Have a variable that holds vowels of lower and upper case letters
 - Have a starting counter of zero(0)
+- Iterate through each letter in the input string
+- Check if the character is a vowel and not equal to 'y'
+- Increment the count if the condition is met
+- Return the final count of vowels (excluding 'y') in the input string
+
 """
