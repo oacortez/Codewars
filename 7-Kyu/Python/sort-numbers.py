@@ -19,8 +19,13 @@ def solution(nums):
 
 
 """
+
+General Though: I am given a array with numbers if array has numbers sort them in order from lowest to highest
+else if array is empty, None, or is an empty array([]) then return an empty array.
+
 Input: Array that cotains numbers
 Output: sorted array of numbers(lowest to highest) or empty array([]) based on the parameters parameters given
 
 
+Steps:
 """
