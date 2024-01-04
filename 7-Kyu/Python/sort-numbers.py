@@ -12,3 +12,7 @@ solution(None)
   - should return []
 
 """
+
+
+def solution(nums):
+  pass
