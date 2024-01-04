@@ -15,7 +15,10 @@ solution(None)
 
 
 def solution(nums):
-  pass
+  if nums == None or nums == []:
+        return []
+  sort_nums = sorted(nums)
+  return sort_nums
 
 
 """
