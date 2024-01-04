@@ -16,3 +16,11 @@ solution(None)
 
 def solution(nums):
   pass
+
+
+"""
+Input: Array that cotains numbers
+Output: sorted array of numbers(lowest to highest) or empty array([]) based on the parameters parameters given
+
+
+"""
