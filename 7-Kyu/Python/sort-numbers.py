@@ -28,4 +28,11 @@ Output: sorted array of numbers(lowest to highest) or empty array([]) based on t
 
 
 Steps:
+- create a conditional 
+- check if param is = to None OR param = to an empty array([])
+- if param is either or return an empty array
+  - Else   
+    - create a variable
+    - use special function sorted() to sort array of numbers from lowest to highest
+    - return new variable with sorted numbers
 """
