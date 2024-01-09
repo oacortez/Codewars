@@ -14,7 +14,9 @@ add_three(3) # 6
 """
 
 def add(n):
-  pass
+    def add_n(number):
+        return number + n
+    return add_n
 
 
 """
