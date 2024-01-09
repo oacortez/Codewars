@@ -24,4 +24,9 @@ Output: a function that returns and adds any number with given parameter(number)
 General thought: I am given a function that stores a number and need to create a function 
 that adds current function number with any number given
 
+Steps:
+- Create a function that takes a number and adds n(number) to it
+- return number of second function and add n(number)
+- return second function that adds n + number 
+
 """
