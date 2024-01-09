@@ -12,3 +12,6 @@ add_three = add(3)
 add_three(3) # 6
 
 """
+
+def add(n):
+  pass
