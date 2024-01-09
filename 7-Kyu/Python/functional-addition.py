@@ -21,4 +21,7 @@ def add(n):
 Input: Number 
 Output: a function that returns and adds any number with given parameter(number)
 
+General thought: I am given a function that stores a number and need to create a function 
+that adds current function number with any number given
+
 """
