@@ -15,3 +15,10 @@ add_three(3) # 6
 
 def add(n):
   pass
+
+
+"""
+Input: Number 
+Output: a function that returns and adds any number with given parameter(number)
+
+"""
