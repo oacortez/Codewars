@@ -18,6 +18,12 @@ def square_digits(num):
   '''
     Input: Number 
     Ouput: Number
-    
+
+    Steps:
+    - Convert number to an array list 
+    - Iterate through each index and multiply by 2(square)
+    - Use .join() to concatenate the elements of the list into a string
+    - Convert the string back to a number using Int
+    - Return final result
 
   '''
