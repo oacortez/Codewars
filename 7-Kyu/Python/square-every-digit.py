@@ -11,11 +11,19 @@ Note: The function accepts an integer and returns an integer.
 '''
 
 def square_digits(num):
-    # Your code here
+    number_str = str(num)
+    
+    list = [int(digit) ** 2 for digit in number_str]
+    
+    result_string = ''.join(map(str, list))
+    
+    result_num = int(result_string)
+    
+    return result_num
   
 
 
-  '''
+'''
     Input: Number 
     Ouput: Number
 
@@ -26,4 +34,4 @@ def square_digits(num):
     - Convert the string back to a number using Int
     - Return final result
 
-  '''
+'''
