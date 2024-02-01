@@ -10,6 +10,17 @@ solution('abc', 'd') // returns false
  */
 
 function solution(str, ending){
+
+  let endStr = ending.length
+  
+  let remove = str.substr(-endStr)
+  
+  if(remove === ending) {
+    return true
+  } else {
+    return false
+  }
+  
 }
 
 
