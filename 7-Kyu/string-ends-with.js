@@ -11,3 +11,11 @@ solution('abc', 'd') // returns false
 
 function solution(str, ending){
 }
+
+
+/**
+ 
+Input: String
+Output: true/false statement
+
+ */
