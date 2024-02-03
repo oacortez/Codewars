@@ -14,6 +14,7 @@ function removeUrlAnchor(url){
 
 /**
  
-
+Input: String
+Output: String
 
  */
