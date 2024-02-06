@@ -9,3 +9,6 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
  */
+
+function createPhoneNumber(numbers){
+}
