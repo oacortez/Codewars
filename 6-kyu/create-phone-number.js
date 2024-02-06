@@ -18,4 +18,12 @@ function createPhoneNumber(numbers){
 Input: Array
 Output: A String of Numbers
 
+Steps: 
+- We need to extract parts of the array in order to break each part down
+  - .slice() will be a method that can help us do that
+  - create 3 variables that hold area code, first part of number, and last part
+- Next we need to bring back the splitted parts into string 
+  - .join() method converts array in strings by concatenating its elements
+- Finally use template literals to return final result
+
  */
