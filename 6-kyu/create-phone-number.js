@@ -15,6 +15,7 @@ function createPhoneNumber(numbers){
 
 /**
  
-
+Input: Array
+Output: A String of Numbers
 
  */
