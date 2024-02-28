@@ -19,7 +19,7 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
 
   public static int makeNegative(final int x) {
     
-    return 0; // Your code here.
+    return x > 0 ? 0 - x: x;
     
   }
   
@@ -34,6 +34,6 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
  - If x is more than zero then return 0 - x
  - else return x 
 
- 
+
 
  */
