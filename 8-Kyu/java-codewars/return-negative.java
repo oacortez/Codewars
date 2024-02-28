@@ -34,6 +34,7 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
  - If x is more than zero then return 0 - x
  - else return x 
 
-
+PS: I had to google this answer because I could not just return -x it did pass a couple test case but not all
+so I am guessing I had to check if the number is more than zero in order to by pass test case?
 
  */
