@@ -29,4 +29,11 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
  Input: Number
  Output: Negative number
 
+ Steps:
+ - Create a conditional to check if the number(x) is more than zero
+ - If x is more than zero then return 0 - x
+ - else return x 
+
+ 
+
  */
