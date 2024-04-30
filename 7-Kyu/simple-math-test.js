@@ -21,3 +21,12 @@ numberProperty(-10) // ==> [false, true,  true]
 function numberProperty(n) {
 
 }
+
+/**
+ 
+Input: Number 
+Output: Array of true and false values
+
+
+
+ */
