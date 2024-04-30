@@ -16,3 +16,8 @@ numberProperty(-7)  // ==> [false, false, false]
 numberProperty(-10) // ==> [false, true,  true] 
 
 */
+
+
+function numberProperty(n) {
+
+}
