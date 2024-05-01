@@ -27,6 +27,10 @@ function numberProperty(n) {
 Input: Number 
 Output: Array of true and false values
 
+- I need to check for three things
+  - is the number prime?
+  - is the number even?
+  - is the number multiple by 10?
 
 
  */
