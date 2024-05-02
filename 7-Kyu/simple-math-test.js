@@ -20,6 +20,18 @@ numberProperty(-10) // ==> [false, true,  true]
 
 function numberProperty(n) {
 
+  // Checking for prime numbers
+
+  //Checking if the number is less than 2
+  if(n < 2) {
+    return false
+  }
+  for(let i = 2; i <= Math.sqrt(n); i++){
+    if(n % 1 === 0) {
+      return false;
+    }
+  }
+  return false;
 }
 
 /**
@@ -31,6 +43,4 @@ Output: Array of true and false values
   - is the number prime?
   - is the number even?
   - is the number multiple by 10?
-
-
  */
