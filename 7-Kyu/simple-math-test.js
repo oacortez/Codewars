@@ -38,6 +38,9 @@ function numberProperty(n) {
   }
   answer.push(isPrime)
 
+
+  // This code checks if number(n) is divisible by 2 and has the remainder of 0 if so number is
+  // even else if it has a remainder of 1 then its an odd number.
   if(n % 2 === 0){
     answer.push(true);
   } else {
