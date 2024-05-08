@@ -20,18 +20,25 @@ numberProperty(-10) // ==> [false, true,  true]
 
 function numberProperty(n) {
 
+  let answer = []
+
   // Checking for prime numbers
+  let isPrime = true;
 
   //Checking if the number is less than 2
   if(n < 2) {
-    return false
+    isPrime = false;
   }
+  
   for(let i = 2; i <= Math.sqrt(n); i++){
     if(n % 1 === 0) {
-      return false;
-    }
+      isPrime = false
+      break;
+    } 
   }
-  return false;
+  answer.push(isPrime)
+  
+  console.log(answer)
 }
 
 /**
