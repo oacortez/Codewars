@@ -37,6 +37,12 @@ function numberProperty(n) {
     } 
   }
   answer.push(isPrime)
+
+  if(n % 2 === 0){
+    answer.push(true);
+  } else {
+    answer.push(false);
+  }
   
   console.log(answer)
 }
