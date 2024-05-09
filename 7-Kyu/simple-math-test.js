@@ -54,6 +54,7 @@ function numberProperty(n) {
     answer.push(false)
   }
 
+  return answer;
 }
 
 /**
