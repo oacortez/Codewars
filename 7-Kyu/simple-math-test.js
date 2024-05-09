@@ -31,7 +31,7 @@ function numberProperty(n) {
   }
   
   for(let i = 2; i <= Math.sqrt(n); i++){
-    if(n % 1 === 0) {
+    if(n % i === 0) {
       isPrime = false
       break;
     } 
@@ -47,7 +47,13 @@ function numberProperty(n) {
     answer.push(false);
   }
   
-  console.log(answer)
+  // This conditional checks if the number is a multiple of 10
+  if(n % 10 === 0){
+    answer.push(true)
+  } else {
+    answer.push(false)
+  }
+
 }
 
 /**
