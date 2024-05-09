@@ -59,4 +59,7 @@ Output: Array of true and false values
   - is the number prime?
   - is the number even?
   - is the number multiple by 10?
+
+  - I will be using an conditional statement to check each question above 
+  - Set up a empty array list to keep track of each answer(true or false values)
  */
