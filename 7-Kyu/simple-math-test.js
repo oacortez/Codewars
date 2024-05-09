@@ -20,7 +20,7 @@ numberProperty(-10) // ==> [false, true,  true]
 
 function numberProperty(n) {
 
-  let answer = []
+  let answer = [];
 
   // Checking for prime numbers
   let isPrime = true;
@@ -32,11 +32,11 @@ function numberProperty(n) {
   
   for(let i = 2; i <= Math.sqrt(n); i++){
     if(n % i === 0) {
-      isPrime = false
+      isPrime = false;
       break;
     } 
   }
-  answer.push(isPrime)
+  answer.push(isPrime);
 
 
   // This code checks if number(n) is divisible by 2 and has the remainder of 0 if so number is
@@ -49,9 +49,9 @@ function numberProperty(n) {
   
   // This conditional checks if the number is a multiple of 10
   if(n % 10 === 0){
-    answer.push(true)
+    answer.push(true);
   } else {
-    answer.push(false)
+    answer.push(false);
   }
 
   return answer;
