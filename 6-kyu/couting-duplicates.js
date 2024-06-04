@@ -16,3 +16,11 @@ Example
 
 function duplicateCount(text){
 }
+
+/**
+ 
+Input: String
+Output: Number(how many characters are duplicated)
+
+
+ */
