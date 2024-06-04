@@ -22,5 +22,6 @@ function duplicateCount(text){
 Input: String
 Output: Number(how many characters are duplicated)
 
-
+Psuedo:
+- First check if the input has any strings(ex: "hi")
  */
