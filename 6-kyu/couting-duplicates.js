@@ -23,5 +23,6 @@ Input: String
 Output: Number(how many characters are duplicated)
 
 Psuedo:
+- Store a counter to add when finding duplicates - counter will start at 0
 - First check if the input has any strings(ex: "hi")
  */
