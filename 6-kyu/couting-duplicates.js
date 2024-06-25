@@ -15,6 +15,7 @@ Example
  */
 
 function duplicateCount(text){
+
 }
 
 /**
@@ -24,5 +25,7 @@ Output: Number(how many characters are duplicated)
 
 Psuedo:
 - Store a counter to add when finding duplicates - counter will start at 0
+- make all strings to lowercase using .toLowerCase()
 - First check if the input has any strings(ex: "hi")
+- loop through all strings
  */
