@@ -16,6 +16,7 @@ Example
 
 function duplicateCount(text){
    let counter = 0;
+   let message = text.toLowerCase();
 }
 
 /**
