@@ -15,7 +15,7 @@ Example
  */
 
 function duplicateCount(text){
-
+   let counter = 0;
 }
 
 /**
