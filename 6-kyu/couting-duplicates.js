@@ -34,6 +34,8 @@ function duplicateCount(text){
   }
 }
 
+let duplicate = 0;
+
 /**
  
 Input: String
