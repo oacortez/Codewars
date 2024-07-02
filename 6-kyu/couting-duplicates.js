@@ -21,6 +21,17 @@ function duplicateCount(text){
    // Store counter if each alphanumeric character
    let counter = {};
 
+  //loop over each string character
+  for(let i = 0; i < text.length; i++) {
+    let str = text[i];
+
+    //check if the string contains alphanumeric characters
+    if(counter[str]) {
+      counter[str]++
+    } else {
+      counter[str] = 1;
+    }
+  }
 }
 
 /**
