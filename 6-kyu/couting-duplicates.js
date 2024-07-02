@@ -18,7 +18,9 @@ function duplicateCount(text){
   //Covert string into lowercase strings. 
    text = text.toLowerCase();
 
-   
+   // Store counter if each alphanumeric character
+   let counter = {};
+
 }
 
 /**
