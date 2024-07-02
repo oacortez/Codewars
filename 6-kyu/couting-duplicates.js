@@ -15,12 +15,10 @@ Example
  */
 
 function duplicateCount(text){
-   let counter = 0;
-   let message = text.toLowerCase();
+  //Covert string into lowercase strings. 
+   text = text.toLowerCase();
 
-   if(text === "") {
-    return counter
-  }
+   
 }
 
 /**
