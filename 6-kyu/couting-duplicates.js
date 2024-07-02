@@ -26,15 +26,28 @@ function duplicateCount(text){
     let str = text[i];
 
     //check if the string contains alphanumeric characters
-    if(counter[str]) {
-      counter[str]++
-    } else {
-      counter[str] = 1;
+    if(/[a-z0-9]/i.test(str)){
+      if(counter[str]) {
+        counter[str]++;
+      } else {
+        counter[str] = 1;
+      }
     }
   }
-}
 
-let duplicate = 0;
+
+
+  let duplicate = 0;
+
+  for(let str in counter) {
+    if(counter.hasOwnProperty(str)) {
+      if(counter[text] > 1) {
+        duplicate++;
+      }
+    }
+  }
+  return duplicate;
+}
 
 /**
  
