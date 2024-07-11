@@ -26,6 +26,10 @@ function getSum(a, b)
 Input: Numbers(negative or positive)
 Output: Number 
 
+- First I notice that if the two arguments are the same then return the same number
+  - make an conditional comparison to check if both arguments are the same 
+  - if so return the same number
+- 
 
 
  */
