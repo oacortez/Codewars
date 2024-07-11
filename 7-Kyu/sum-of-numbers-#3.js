@@ -14,3 +14,14 @@ Examples (a, b) --> output (explanation)
 Your function should only return a number, not the explanation about how you get that number.
 
  */
+
+
+
+/**
+ 
+Input: Numbers(negative or positive)
+Output: Number 
+
+
+
+ */
