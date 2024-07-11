@@ -15,6 +15,10 @@ Your function should only return a number, not the explanation about how you get
 
  */
 
+function getSum(a, b)
+{
+   //Good luck!
+}
 
 
 /**
