@@ -17,7 +17,7 @@ Your function should only return a number, not the explanation about how you get
 
 function getSum(a, b)
 {
-   //Good luck!
+  
 }
 
 
@@ -29,7 +29,10 @@ Output: Number
 - First I notice that if the two arguments are the same then return the same number
   - make an conditional comparison to check if both arguments are the same 
   - if so return the same number
-- 
+- else create a variable starter of zero that will be used for our answer
+- create two variables one lowest and highest using Math.min/max()
+- loop over the number and add sum to i variable 
+- return sum to get final answer.
 
 
  */
