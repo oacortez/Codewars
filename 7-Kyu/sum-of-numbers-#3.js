@@ -17,7 +17,17 @@ Your function should only return a number, not the explanation about how you get
 
 function getSum(a, b)
 {
-  
+  if(a === b) {
+    return a
+   } else {
+    let sum = 0;
+    let lowestNum = Math.min(a, b);
+    let highestNum = Math.max(a, b);
+    for(let i = lowestNum; i <= highestNum; i++) {
+      sum += i
+    }
+    return sum;
+   }
 }
 
 
