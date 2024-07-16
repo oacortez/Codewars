@@ -19,4 +19,10 @@ function reverseLetter(str) {
 Input: string of random characters
 Output: string 
 
+
+- I need to check if string has numbers/characters
+  - If it does remove from the string
+- Once you have removed characters that you dont need to lowercase all strings 
+- once you have removed characters and lowered case the strings reverse it 
+- after that return to complete answer
  */
