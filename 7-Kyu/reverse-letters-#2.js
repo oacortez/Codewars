@@ -7,6 +7,12 @@
 // For str = "ultr53o?n", the output should be "nortlu".
 
 
+function reverseLetter(str) {
+  //coding and coding..
+  
+  
+}
+
 
 /**
  
