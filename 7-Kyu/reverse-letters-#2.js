@@ -8,3 +8,9 @@
 
 
 
+/**
+ 
+Input: string of random characters
+Output: string 
+
+ */
