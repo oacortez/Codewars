@@ -8,9 +8,9 @@
 
 
 function reverseLetter(str) {
-  //coding and coding..
-  
-  
+  let newStr = str.replace(/[^a-zA-Z]/g, '')
+  let reversedStr = newStr.split('').reverse();
+  return reversedStr.join('')
 }
 
 
