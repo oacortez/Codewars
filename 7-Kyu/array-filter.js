@@ -12,3 +12,13 @@ getEvenNumbers([2,4,5,6]) // should == [2,4,6]
 function getEvenNumbers(numbersArray){
   // filter out the odd numbers
 }
+
+
+/**
+ 
+- I need to first check how to check for odd numbers 
+- Next check for how to use filter function syntax
+- create code that checks if the current index number is odd
+- return answer?
+
+ */
