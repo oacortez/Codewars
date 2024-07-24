@@ -6,7 +6,13 @@ which tells us if a given character is a letter or not.
  */
 
 function isItLetter(character) {
-  return true || false ;
+  for(const char of character) {
+    if(!(char >= 'a' && char <= 'z') && 
+       !(char >= 'A' && char <= 'Z')) {
+      return false;
+    }
+  }
+  return true;
 }
 
 /**
