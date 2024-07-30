@@ -11,4 +11,9 @@
 
 function findNextSquare(sq) {
   let perfect = Math.sqrt(sq)
+
+  //this returns -1 if the parameter(sq) in variabel "perfect" that is not divisible by by 1
+  if(perfect % 1 !== 0) {
+    return -1
+  }
 }
