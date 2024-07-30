@@ -10,7 +10,5 @@
 // 114 --> -1  #  because 114 is not a perfect square
 
 function findNextSquare(sq) {
-  // Return the next square if sq is a perfect square, -1 otherwise
-//   return -1;
-
+  let perfect = Math.sqrt(sq)
 }
