@@ -16,8 +16,6 @@ function findNextSquare(sq) {
   if(perfect % 1 !== 0) {
     return -1
   }
-  const nextSqrt = sq + 1;
-  console.log(nextSqrt)
-//    console.log(nextSqrt)
-  console.log(nextSqrt * nextSqrt);
+  const nextSqrt = perfect + 1;
+  return nextSqrt * nextSqrt
 }
