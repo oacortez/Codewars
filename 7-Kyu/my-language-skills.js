@@ -8,6 +8,8 @@
 // {"C++": 50, "ASM": 10, "Haskell": 20}     -->  []
 
 function myLanguages(results) {
-  const res = Object.keys(results)
-  console.log(res)
+  // const res = Object.keys(results)
+  // console.log(res)
+
+  const res = Object.keys(results).filter(key => results[key] > 60);
 }
