@@ -11,5 +11,6 @@ function myLanguages(results) {
   // const res = Object.keys(results)
   // console.log(res)
 
-  const res = Object.keys(results).filter(key => results[key] > 60);
+  const res = Object.keys(results).filter(key => results[key] >= 60);
+  return res
 }
