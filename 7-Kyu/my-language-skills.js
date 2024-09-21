@@ -20,6 +20,18 @@ function myLanguages(results) {
 Input: Object
 Output: Array(Greatest to Lowest)
 
+- First since our problem is an object with have to convert it to a Array using
+  -Object.keys() - This converst the key object into a set of array with keys
 
+- Now that we have a set of keys arrays we need to filter them by their values
+  - Filter() 
+- Filtering will we need to go more deeper
+  - results[objKey] >= 60 - This piece of code enters into the key and its value 
+  which is the numbers from each key. It also checks if each key value is equal or more than 60
+
+- Next we will need to sort out the key values from higest to lowest
+  - sort() will work to make sure it sorts key values to highest to lowest 
+
+- Finally we will need to return the stored variable we saved it in to get the test approved.
 
 */
