@@ -8,10 +8,7 @@
 // {"C++": 50, "ASM": 10, "Haskell": 20}     -->  []
 
 function myLanguages(results) {
-  // const res = Object.keys(results)
-  // console.log(res)
-
-  const res = Object.keys(results).filter(key => results[key] >= 60);
+  const res = Object.keys(results).filter((objKey) => results[objKey] >= 60).sort((a, b) => results[b] - results[a]);
   return res
 }
 
@@ -21,7 +18,7 @@ Input: Object
 Output: Array(Greatest to Lowest)
 
 - First since our problem is an object with have to convert it to a Array using
-  -Object.keys() - This converst the key object into a set of array with keys
+  -Object.keys() - This convert the key object into a set of array with keys
 
 - Now that we have a set of keys arrays we need to filter them by their values
   - Filter() 
@@ -29,7 +26,7 @@ Output: Array(Greatest to Lowest)
   - results[objKey] >= 60 - This piece of code enters into the key and its value 
   which is the numbers from each key. It also checks if each key value is equal or more than 60
 
-- Next we will need to sort out the key values from higest to lowest
+- Next we will need to sort out the key values from highest to lowest
   - sort() will work to make sure it sorts key values to highest to lowest 
 
 - Finally we will need to return the stored variable we saved it in to get the test approved.
